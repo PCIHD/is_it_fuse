@@ -19,7 +19,7 @@ def create_dataframe_record(filename: str):
     try:
         with pdfplumber.open(filename, repair=True) as pdf:
             for page in pdf.pages:
-                text = text + " " + page.extract_text_simple()
+                text = text + " " + page.extract_text_lines()
         return (text, class_name, dataset_type, filename)
 
     except Exception as e:

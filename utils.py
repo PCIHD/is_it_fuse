@@ -19,7 +19,8 @@ def vectorize_text(text: pd.DataFrame):
 
 
 def get_labels(classes):
-    label_encoding = {item: [0.0] * len(classes) for item in classes}
+    unique_classes = classes["class_name"].unique()
+    label_encoding = {item: [0.0] * len(unique_classes) for item in unique_classes}
     for i, encoding in enumerate(label_encoding):
         label_encoding[encoding][i] = 1.0
     return label_encoding
@@ -42,6 +43,6 @@ def get_vocabulary(text: pd.DataFrame):
     text_values_collection = [text.split(" ") for text in text_values]
     text_values_vocab = []
     for text in text_values_collection:
-        text_values_vocab.extend(text)
+        text_values_vocab.extend(text[:1000])
     text_values_vocab = list(set(text_values_vocab))
     return text_values_vocab

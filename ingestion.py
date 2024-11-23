@@ -50,7 +50,7 @@ def fetch_and_store_file(file_name: dict) -> bool:
             stream=True,
             headers=headers,
             allow_redirects=True,
-            timeout=300,
+            timeout=500,
         )
         response.raise_for_status()
         file_name_url_reduced = file_name_url[-30:]
