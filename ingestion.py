@@ -3,11 +3,14 @@ from concurrent.futures import as_completed
 from concurrent.futures.thread import ThreadPoolExecutor
 from pathlib import Path
 
+import PyPDF2
 import numpy as np
 import pandas as pd
 import requests
 from requests.adapters import HTTPAdapter
 from tqdm import tqdm
+from urllib3 import Retry
+import urllib.request
 
 data_source = pd.ExcelFile("./meta_data/DataSet.xlsx")
 
@@ -39,25 +42,27 @@ def fetch_and_store_file(file_name: dict) -> bool:
         file_name.get("target_col"),
     )
     try:
-        # response = requests.get(file_name_url)
-        session = requests.Session()
-
-        adapter = HTTPAdapter(max_retries=2)
-        session.mount("http://", adapter)
-        response = session.get(file_name_url, timeout=200)
-
-        adapter.max_retries.respect_retry_after_header = False
-        if response.status_code == 200:
-            file_name_url_reduced = file_name_url[-30:]
-            file_name_url_reduced = file_name_url_reduced.replace("/", "-")
-            file = open(
-                os.path.join(Path(file_write_path, Path(file_name_url_reduced))), "wb"
-            )
-            file.write(response.content)
-            file.close()
-            return True
-        else:
-            return False
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0 Safari/537.36"
+        }
+        response = requests.get(
+            file_name_url,
+            stream=True,
+            headers=headers,
+            allow_redirects=True,
+            timeout=300,
+        )
+        response.raise_for_status()
+        file_name_url_reduced = file_name_url[-30:]
+        file_name_url_reduced = file_name_url_reduced.replace("/", "-")
+        if not file_name_url_reduced.endswith(".pdf"):
+            file_name_url_reduced += ".pdf"
+        with open(
+            os.path.join(Path(file_write_path, Path(file_name_url_reduced))), "wb"
+        ) as pdf_file:
+            for chunk in response.iter_content(chunk_size=1024):
+                pdf_file.write(chunk)
+        return True
     except Exception as e:
         print(e)
         print(os.path.join(Path(file_write_path, Path(file_name_url.split("/")[-1]))))
@@ -79,7 +84,7 @@ for sheet in data_source.sheet_names:
     #     fetch_and_store_file(record)
 
     results = []
-    with ThreadPoolExecutor(max_workers=1000) as executor:
+    with ThreadPoolExecutor(max_workers=200) as executor:
         # results = list(executor.map(fetch_and_store_file, sheet_records))
         futures = [
             executor.submit(fetch_and_store_file, record) for record in sheet_records
