@@ -27,7 +27,6 @@ class Dataset(data.Dataset):
         row_text = row_text[: self.context_len]
         word_encoding_0 = torch.zeros((self.context_len, len(self.vocabulary)))
         for id, word in enumerate(row_text):
-
             word_encoding_0[id][self.vocabulary.index(word)] = 1.0
         label_value = torch.tensor(self.labels[row["class_name"]])
         return word_encoding_0, label_value

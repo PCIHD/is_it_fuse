@@ -1,10 +1,11 @@
 import glob
 import os
 from multiprocessing import Pool, cpu_count
-from pdfminer.high_level import extract_text
+from pdfminer.high_level import extract_text, extract_pages
 import fitz
 import pdfplumber
 import pdfminer
+from pdfminer.layout import LTTextBox, LTTextLine
 from tqdm import tqdm
 import pandas as pd
 from pypdf import PdfReader
@@ -15,16 +16,19 @@ def create_dataframe_record(filename: str):
     file_splits = filename.split("/")
     class_name = file_splits[4]
     dataset_type = file_splits[3]
-    text = ""
+    page_text = ""
+    pages_text = []
     try:
-        with pdfplumber.open(filename, repair=True) as pdf:
-            for page in pdf.pages:
-                text = text + " " + page.extract_text_lines()
-        return (text, class_name, dataset_type, filename)
+        for page_layout in extract_pages(filename):
 
+            for element in page_layout:
+                if isinstance(element, (LTTextBox, LTTextLine)):
+                    page_text += element.get_text()
+            pages_text.append(page_text)
+            return (page_text, class_name, dataset_type, filename)
     except Exception as e:
-        print(f"Error reading PDF with PyMuPDF: {e}")
-        return (text, class_name, dataset_type, filename)
+        print(f"Error extracting text: {e,filename}")
+        return None
 
 
 def process_files_with_multiprocessing(file_list):
@@ -49,7 +53,8 @@ if __name__ == "__main__":
 
     # Filter out None results (if any errors occurred)
     results = [res for res in results if res is not None]
-
+    failures = ["_" for res in results if res is None]
+    print(f"Failed at {len(failures)} PDFs")
     # Create DataFrame and save as Parquet
     df = pd.DataFrame(
         results, columns=["text", "class_name", "dataset_type", "filename"]

@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 
 def vectorize_text(text: pd.DataFrame):
@@ -40,6 +41,7 @@ def row_iterator(row, word_encoding, label_encoding, vocabulary) -> (list[int], 
 def get_vocabulary(text: pd.DataFrame, context_len):
     text["text"] = text["text"].str.lower()
     text_values = text["text"].values
+
     text_values_collection = [text.split(" ") for text in text_values]
     text_values_vocab = []
     for text in text_values_collection:
