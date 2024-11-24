@@ -37,12 +37,12 @@ def row_iterator(row, word_encoding, label_encoding, vocabulary) -> (list[int], 
     return row_tensor, label_value
 
 
-def get_vocabulary(text: pd.DataFrame):
+def get_vocabulary(text: pd.DataFrame, context_len):
     text["text"] = text["text"].str.lower()
     text_values = text["text"].values
     text_values_collection = [text.split(" ") for text in text_values]
     text_values_vocab = []
     for text in text_values_collection:
-        text_values_vocab.extend(text[:1000])
+        text_values_vocab.extend(text[:context_len])
     text_values_vocab = list(set(text_values_vocab))
     return text_values_vocab

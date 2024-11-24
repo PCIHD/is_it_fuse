@@ -6,11 +6,12 @@ from utils import get_vocabulary, get_labels
 
 
 class Dataset(data.Dataset):
-    def __init__(self, data: pd.DataFrame, vocabulary):
+    def __init__(self, data: pd.DataFrame, vocabulary, context_len=500):
         super(Dataset, self).__init__()
         self.data = data
         self.vocabulary = vocabulary
         self.labels = get_labels(data)
+        self.context_len = context_len
         print("vocabulary size: ", len(self.vocabulary))
 
     def __len__(self):
@@ -23,8 +24,8 @@ class Dataset(data.Dataset):
 
     def row_iterator(self, row) -> (list[int], int):
         row_text = row["text"].lower().split(" ")
-        row_text = row_text[:1000]
-        word_encoding_0 = torch.zeros((1000, len(self.vocabulary)))
+        row_text = row_text[: self.context_len]
+        word_encoding_0 = torch.zeros((self.context_len, len(self.vocabulary)))
         for id, word in enumerate(row_text):
 
             word_encoding_0[id][self.vocabulary.index(word)] = 1.0
