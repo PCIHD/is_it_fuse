@@ -49,7 +49,7 @@ if __name__ == "__main__":
         network_width=128,
         num_blocks=6,
         context_length=context_length,
-        embedding_size=2,
+        embedding_size=512,
         hidden_size=128,
     )
     mlf_logger = MLFlowLogger(
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     )
     lr_monitor = LearningRateMonitor(logging_interval="epoch")
     trainer = L.Trainer(
-        max_epochs=1,
+        max_epochs=30,
         logger=mlf_logger,
         enable_progress_bar=True,
         log_every_n_steps=10,

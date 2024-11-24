@@ -1,14 +1,36 @@
 import torch
 import torchmetrics
 from torch import nn
-from torch.distributions import Uniform
 from torch.optim import Adam
 import lightning as L
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from torchmetrics import ConfusionMatrix
 
 
 class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
+    """
+    A PyTorch Lightning module for word and positional self-attention embeddings.
+    This model uses LSTMs and linear layers to process sequences and output predictions.
+
+    Parameters
+    ----------
+    vocab_size : int, optional
+        The size of the vocabulary (default is 2).
+    network_width : int, optional
+        The width of the network (default is 2).
+    output_neurons : int, optional
+        The number of output neurons for the final layer (default is 4).
+    context_length : int, optional
+        The length of the input context (default is 1000).
+    num_blocks : int, optional
+        The number of neural network blocks (default is 2).
+    shrinkage : int, optional
+        The shrinkage factor for reducing the dimensions of neural network layers (default is 2).
+    embedding_size : int, optional
+        The size of the embedding vectors (default is 512).
+    hidden_size : int, optional
+        The hidden size of the LSTM (default is 64).
+    """
+
     def __init__(
         self,
         vocab_size: int = 2,
@@ -76,13 +98,24 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
         )
 
     def get_deep_blocks_shrinkage(self, num_blocks, shrinkage):
+        """
+        Constructs a sequence of neural network blocks with shrinkage.
+
+        Parameters
+        ----------
+        num_blocks : int
+            The number of blocks to create.
+        shrinkage : int
+            The shrinkage factor for dimension reduction.
+
+        Returns
+        -------
+        List[nn.Module]
+            A list of NNBlocks with progressively reduced dimensions.
+        """
         return_blocks = []
         for i in range(1, num_blocks + 1):
             if self.network_width // (i + 1) * shrinkage > self.output_neurons:
-                print(
-                    self.network_width // ((i) * shrinkage),
-                    self.network_width // ((i + 1) * shrinkage),
-                )
                 return_blocks.append(
                     NNBlocks(
                         self.network_width // ((i) * shrinkage),
@@ -94,12 +127,40 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
         return return_blocks
 
     def get_deep_blocks(self, num_blocks, neurons):
+        """
+        Constructs a sequence of neural network blocks with fixed dimensions.
+
+        Parameters
+        ----------
+        num_blocks : int
+            The number of blocks to create.
+        neurons : int
+            The number of neurons in each block.
+
+        Returns
+        -------
+        List[nn.Module]
+            A list of NNBlocks with fixed dimensions.
+        """
         return_blocks = []
         for i in range(1, num_blocks + 1):
             return_blocks.append(NNBlocks(neurons, neurons))
         return return_blocks
 
     def forward(self, input_tensor):
+        """
+        Forward pass for the model.
+
+        Parameters
+        ----------
+        input_tensor : torch.Tensor
+            The input tensor of shape (batch_size, context_length).
+
+        Returns
+        -------
+        torch.Tensor
+            The output tensor of shape (batch_size, output_neurons).
+        """
         op = self.semantic(input_tensor)
         lstm_out, (hidden, cell) = self.lstm(op)
         hidden_out = torch.cat((hidden[-2], hidden[-1]), dim=1)
@@ -110,6 +171,14 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
         return op
 
     def configure_optimizers(self):
+        """
+        Configures the optimizer and learning rate scheduler.
+
+        Returns
+        -------
+        dict
+            A dictionary containing the optimizer and scheduler configurations.
+        """
         optimizer = Adam(self.parameters(), lr=0.1)
         lr_scheduler = {
             "scheduler": ReduceLROnPlateau(optimizer, "min", patience=2),
@@ -121,6 +190,21 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
         return {"optimizer": optimizer, "lr_scheduler": lr_scheduler}
 
     def training_step(self, batch, batch_idx):
+        """
+        A single training step.
+
+        Parameters
+        ----------
+        batch : Tuple[torch.Tensor, torch.Tensor]
+            A batch of input and target tensors.
+        batch_idx : int
+            The index of the batch.
+
+        Returns
+        -------
+        torch.Tensor
+            The computed loss.
+        """
         input_i, label_i = batch
         output_i = self.forward(input_i)
         loss = self.loss(output_i, label_i)
@@ -131,10 +215,19 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
         self.log("train_prec", self.precision, on_step=True, on_epoch=False)
         self.log("train_rec", self.recall, on_step=True, on_epoch=False)
         self.log("train_loss", loss, on_step=True, on_epoch=False)
-
         return loss
 
     def validation_step(self, batch, batch_idx):
+        """
+        A single validation step.
+
+        Parameters
+        ----------
+        batch : Tuple[torch.Tensor, torch.Tensor]
+            A batch of input and target tensors.
+        batch_idx : int
+            The index of the batch.
+        """
         input_i, label_i = batch
         output = self(input_i)
         self.valid_acc(output, label_i)
@@ -147,6 +240,9 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
         self.log("val_loss", val_loss, on_step=True, on_epoch=False)
 
     def on_train_epoch_end(self):
+        """
+        Actions to perform at the end of a training epoch.
+        """
         self.log("train_acc_epoch", self.train_acc, on_step=False, on_epoch=True)
         self.log("train_prec_epoch", self.precision, on_step=False, on_epoch=True)
         self.log("train_rec_epoch", self.recall, on_step=False, on_epoch=True)
@@ -156,7 +252,9 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
         self.recall.reset()
 
     def on_validation_epoch_end(self):
-
+        """
+        Actions to perform at the end of a validation epoch.
+        """
         self.log("valid_acc_epoch", self.valid_acc, on_step=False, on_epoch=True)
         self.log("valid_prec_epoch", self.precision_valid, on_step=False, on_epoch=True)
         self.log("valid_rec_epoch", self.recall_valid, on_step=False, on_epoch=True)
@@ -166,6 +264,17 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
 
 
 class NNBlocks(nn.Module):
+    """
+    A neural network block consisting of a linear layer, dropout, and ReLU activation.
+
+    Parameters
+    ----------
+    input_dims : int
+        The number of input dimensions.
+    output_dims : int
+        The number of output dimensions.
+    """
+
     def __init__(self, input_dims, output_dims):
         super().__init__()
         self.l1 = nn.Sequential(
@@ -175,5 +284,18 @@ class NNBlocks(nn.Module):
         )
 
     def forward(self, input_tensor):
+        """
+        Forward pass for the block.
+
+        Parameters
+        ----------
+        input_tensor : torch.Tensor
+            The input tensor.
+
+        Returns
+        -------
+        torch.Tensor
+            The output tensor.
+        """
         op = self.l1(input_tensor)
         return op
