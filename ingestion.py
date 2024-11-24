@@ -13,6 +13,31 @@ from urllib3 import Retry
 import httpx
 
 data_source = pd.ExcelFile("./meta_data/DataSet.xlsx")
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+import requests
+
+# Create an adapter with retry logic
+retry_strategy = Retry(
+    total=2,
+    backoff_factor=1,
+    status_forcelist=[429, 500, 502, 503, 504],
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
+
+# Attach the adapter to a session
+session = requests.Session()
+session.mount("http://", adapter)
+session.mount("https://", adapter)
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0 Safari/537.36",
+    "Referer": "dingding.com",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "Connection": "keep-alive",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US,en;q=0.9",
+    "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+}
 
 
 # few samples will be lost due to connection issues, can be resolved using http adapter with a retry mechanism
@@ -42,20 +67,21 @@ def fetch_and_store_file(file_name: dict) -> bool:
         file_name.get("target_col"),
     )
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0 Safari/537.36",
-            "Referer": "https://example.com",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-        }
-        with httpx.Client(
-            follow_redirects=True, timeout=150, http2=True, headers=headers
-        ) as client:
-            response = client.get(file_name_url, headers=headers)
+        file_name_url_reduced = file_name_url[-30:]
+        file_name_url_reduced = file_name_url_reduced.replace("/", "-")
+
+        if not file_name_url_reduced.endswith(".pdf"):
+            file_name_url_reduced += ".pdf"
+        if not os.path.exists(
+            os.path.join(Path(file_write_path, Path(file_name_url_reduced)))
+        ):
+            response = session.get(
+                file_name_url,
+                headers=headers,
+                timeout=30,
+                allow_redirects=True,
+            )
             response.raise_for_status()
-            file_name_url_reduced = file_name_url[-30:]
-            file_name_url_reduced = file_name_url_reduced.replace("/", "-")
-            if not file_name_url_reduced.endswith(".pdf"):
-                file_name_url_reduced += ".pdf"
             with open(
                 os.path.join(Path(file_write_path, Path(file_name_url_reduced))), "wb"
             ) as pdf_file:
@@ -63,6 +89,8 @@ def fetch_and_store_file(file_name: dict) -> bool:
                 # for chunk in response.iter_content(chunk_size=1024):
                 #     pdf_file.write(chunk)
             return True
+        else:
+            True
     except Exception as e:
         print(e)
         print(os.path.join(Path(file_write_path, Path(file_name_url.split("/")[-1]))))

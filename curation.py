@@ -16,19 +16,18 @@ def create_dataframe_record(filename: str):
     file_splits = filename.split("/")
     class_name = file_splits[4]
     dataset_type = file_splits[3]
-    page_text = ""
-    pages_text = []
+
+    pages_text = ""
     try:
         for page_layout in extract_pages(filename):
-
             for element in page_layout:
                 if isinstance(element, (LTTextBox, LTTextLine)):
-                    page_text += element.get_text()
-            pages_text.append(page_text)
-            return (page_text, class_name, dataset_type, filename)
+                    pages_text = pages_text + "\n" + element.get_text()
+
     except Exception as e:
         print(f"Error extracting text: {e,filename}")
         return None
+    return (pages_text, class_name, dataset_type, filename)
 
 
 def process_files_with_multiprocessing(file_list):
@@ -61,5 +60,6 @@ if __name__ == "__main__":
     )
     os.makedirs("./data_foundation/curated/", exist_ok=True)
     df.to_parquet("./data_foundation/curated/curated_dataset.parquet")
+    df.to_excel("./data_foundation/curated/curated_dataset.xlsx")
 
     print("Data processing complete. Curated dataset saved.")

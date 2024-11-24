@@ -11,19 +11,33 @@ from torchmetrics import ConfusionMatrix
 class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
     def __init__(
         self,
-        vocab_size: int,
+        vocab_size: int = 2,
         network_width: int = 2,
         output_neurons: int = 4,
         context_length: int = 1000,
         num_blocks: int = 2,
         shrinkage=2,
+        embedding_size: int = 512,
+        hidden_size: int = 64,
     ):
         super().__init__()
+        self.context_length = context_length
+        self.embedding_size = embedding_size
 
         self.vocab_size = vocab_size
         self.network_width = network_width
+        self.semantic = nn.Embedding(vocab_size, embedding_size)
+        self.lstm = nn.LSTM(
+            input_size=embedding_size,
+            hidden_size=hidden_size,
+            num_layers=num_blocks,
+            batch_first=True,
+            bidirectional=True,
+        )
+        lstm_output_dim = hidden_size * 2
+        self.pooling = nn.AdaptiveAvgPool1d(1)
         self.l1 = nn.Sequential(
-            nn.Linear(self.vocab_size, self.network_width),
+            nn.Linear(lstm_output_dim, self.network_width),
             nn.ReLU(),
             nn.Linear(self.network_width, self.network_width // shrinkage),
             nn.ReLU(),
@@ -36,9 +50,8 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
             *self.get_deep_blocks_shrinkage(num_blocks, shrinkage)
         )
         self.output_neurons = nn.Sequential(
-            nn.Flatten(start_dim=1),
             nn.Linear(
-                self.network_width // (shrinkage * (num_blocks + 1)) * context_length,
+                self.network_width // (shrinkage * (num_blocks + 1)),
                 output_neurons,
             ),
             nn.Softmax(dim=-1),
@@ -87,7 +100,10 @@ class WordnPositionalSelfAttentionEmbeddings(L.LightningModule):
         return return_blocks
 
     def forward(self, input_tensor):
-        op = self.l1(input_tensor)
+        op = self.semantic(input_tensor)
+        lstm_out, (hidden, cell) = self.lstm(op)
+        hidden_out = torch.cat((hidden[-2], hidden[-1]), dim=1)
+        op = self.l1(hidden_out)
         op = self.nn_blocks(op)
         op = self.nn_blocks_shrinkage(op)
         op = self.output_neurons(op)

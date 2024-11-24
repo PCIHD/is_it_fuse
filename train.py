@@ -13,9 +13,11 @@ if __name__ == "__main__":
     df = pd.read_parquet("./data_foundation/curated/curated_dataset.parquet")
     df = df[df["text"].str.len() > 0]
     print(df.shape)
-    df["text"] = df["text"].str.replace(r"[^A-Za-z\s]", "", regex=True)
+    df["text"] = df["text"].str.replace(r"[^A-Za-z]", " ", regex=True)
+    df["text"] = df["text"].str.replace(r"\s+", " ", regex=True).str.strip()
     print(df[df["dataset_type"] == "train_data"].groupby("class_name").count())
     print(df[df["dataset_type"] == "test_data"].groupby("class_name").count())
+
     context_length = 600
     vocabulary = get_vocabulary(df, context_length)
     dataset = Dataset(
@@ -29,7 +31,7 @@ if __name__ == "__main__":
 
     dataloader = torch.utils.data.DataLoader(
         dataset,
-        batch_size=32,
+        batch_size=16,
         shuffle=True,
         num_workers=4,
         persistent_workers=True,
@@ -37,16 +39,18 @@ if __name__ == "__main__":
     )
     val_dataloader = torch.utils.data.DataLoader(
         val_dataset,
-        batch_size=32,
+        batch_size=16,
         num_workers=4,
         persistent_workers=True,
         prefetch_factor=4,
     )
     model = WordnPositionalSelfAttentionEmbeddings(
         vocab_size=len(dataset.vocabulary),
-        network_width=8,
-        num_blocks=1,
+        network_width=128,
+        num_blocks=6,
         context_length=context_length,
+        embedding_size=2,
+        hidden_size=128,
     )
     mlf_logger = MLFlowLogger(
         experiment_name="torch_classifier",
@@ -55,14 +59,19 @@ if __name__ == "__main__":
     )
     lr_monitor = LearningRateMonitor(logging_interval="epoch")
     trainer = L.Trainer(
-        max_epochs=50,
+        max_epochs=1,
         logger=mlf_logger,
         enable_progress_bar=True,
-        log_every_n_steps=50,
-        accelerator="mps",
+        log_every_n_steps=10,
+        # accelerator="mps",
         callbacks=[lr_monitor],
-        accumulate_grad_batches=2,
+        accumulate_grad_batches=5,
+        enable_model_summary=True,
+        default_root_dir="./models",
     )
     trainer.fit(
         model=model, train_dataloaders=dataloader, val_dataloaders=val_dataloader
     )
+    trainer.save_checkpoint("./models/model.ckpt")
+    torch.save(vocabulary, "./models/vocabulary.pt")
+    torch.save(dataset.labels, "./models/labels.pt")

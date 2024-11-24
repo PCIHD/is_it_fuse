@@ -1,6 +1,8 @@
 import pandas as pd
 import re
 
+import torch
+
 
 def vectorize_text(text: pd.DataFrame):
     vocabulary = get_vocabulary(text)
@@ -21,9 +23,11 @@ def vectorize_text(text: pd.DataFrame):
 
 def get_labels(classes):
     unique_classes = classes["class_name"].unique()
-    label_encoding = {item: [0.0] * len(unique_classes) for item in unique_classes}
-    for i, encoding in enumerate(label_encoding):
-        label_encoding[encoding][i] = 1.0
+    label_encoding = {}
+    for i, encoding_name in enumerate(unique_classes):
+        encoding = torch.zeros(len(unique_classes))
+        encoding[i] = 1.0
+        label_encoding[encoding_name] = encoding
     return label_encoding
 
 
