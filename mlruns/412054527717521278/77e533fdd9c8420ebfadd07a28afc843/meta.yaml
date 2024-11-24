@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/77e533fdd9c8420ebfadd07a28afc843/artifacts
+end_time: 1732376552824
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 77e533fdd9c8420ebfadd07a28afc843
+run_name: respected-ram-970
+run_uuid: 77e533fdd9c8420ebfadd07a28afc843
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732376520636
+status: 4
+tags: []
+user_id: paragchaudhari

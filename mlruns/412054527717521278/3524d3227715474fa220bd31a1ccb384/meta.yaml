@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3524d3227715474fa220bd31a1ccb384/artifacts
+end_time: 1732385078174
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3524d3227715474fa220bd31a1ccb384
+run_name: upset-trout-554
+run_uuid: 3524d3227715474fa220bd31a1ccb384
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732385071482
+status: 4
+tags: []
+user_id: paragchaudhari

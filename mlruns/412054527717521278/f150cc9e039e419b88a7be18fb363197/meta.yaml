@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f150cc9e039e419b88a7be18fb363197/artifacts
+end_time: 1732386297868
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f150cc9e039e419b88a7be18fb363197
+run_name: bald-doe-220
+run_uuid: f150cc9e039e419b88a7be18fb363197
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732386291221
+status: 4
+tags: []
+user_id: paragchaudhari

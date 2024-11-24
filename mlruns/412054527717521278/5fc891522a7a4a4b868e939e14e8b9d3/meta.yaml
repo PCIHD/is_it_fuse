@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/5fc891522a7a4a4b868e939e14e8b9d3/artifacts
+end_time: 1732462268453
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 5fc891522a7a4a4b868e939e14e8b9d3
+run_name: gaudy-seal-531
+run_uuid: 5fc891522a7a4a4b868e939e14e8b9d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732462196649
+status: 4
+tags: []
+user_id: paragchaudhari

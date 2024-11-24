@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/6af060cc36404a108836a3b26dc024a3/artifacts
+end_time: 1732441998513
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 6af060cc36404a108836a3b26dc024a3
+run_name: intelligent-cat-865
+run_uuid: 6af060cc36404a108836a3b26dc024a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732441978151
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/fcf1825a1eb040e380dbef5069c62a4e/artifacts
+end_time: 1732377778528
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: fcf1825a1eb040e380dbef5069c62a4e
+run_name: placid-koi-161
+run_uuid: fcf1825a1eb040e380dbef5069c62a4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732377740762
+status: 4
+tags: []
+user_id: paragchaudhari

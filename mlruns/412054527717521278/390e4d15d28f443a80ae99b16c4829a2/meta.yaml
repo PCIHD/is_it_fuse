@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/390e4d15d28f443a80ae99b16c4829a2/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 390e4d15d28f443a80ae99b16c4829a2
+run_name: capable-donkey-450
+run_uuid: 390e4d15d28f443a80ae99b16c4829a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732386216863
+status: 1
+tags: []
+user_id: paragchaudhari

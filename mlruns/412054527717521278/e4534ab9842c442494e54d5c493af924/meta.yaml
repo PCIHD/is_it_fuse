@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e4534ab9842c442494e54d5c493af924/artifacts
+end_time: 1732443220791
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e4534ab9842c442494e54d5c493af924
+run_name: valuable-pug-487
+run_uuid: e4534ab9842c442494e54d5c493af924
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732443052526
+status: 4
+tags: []
+user_id: paragchaudhari

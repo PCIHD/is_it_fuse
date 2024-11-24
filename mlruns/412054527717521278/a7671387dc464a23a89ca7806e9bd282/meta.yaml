@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a7671387dc464a23a89ca7806e9bd282/artifacts
+end_time: 1732432429007
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a7671387dc464a23a89ca7806e9bd282
+run_name: luminous-ray-58
+run_uuid: a7671387dc464a23a89ca7806e9bd282
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732432423065
+status: 4
+tags: []
+user_id: paragchaudhari

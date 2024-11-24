@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/d7f7f32ad6da44469acd9ddbf806ca5b/artifacts
+end_time: 1732385938478
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: d7f7f32ad6da44469acd9ddbf806ca5b
+run_name: adaptable-gnat-86
+run_uuid: d7f7f32ad6da44469acd9ddbf806ca5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732385889978
+status: 4
+tags: []
+user_id: paragchaudhari

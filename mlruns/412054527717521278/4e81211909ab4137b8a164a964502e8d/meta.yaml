@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/4e81211909ab4137b8a164a964502e8d/artifacts
+end_time: 1732451188120
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 4e81211909ab4137b8a164a964502e8d
+run_name: honorable-roo-959
+run_uuid: 4e81211909ab4137b8a164a964502e8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732451118395
+status: 4
+tags: []
+user_id: paragchaudhari

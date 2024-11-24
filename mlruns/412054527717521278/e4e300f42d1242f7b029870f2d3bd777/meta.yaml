@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e4e300f42d1242f7b029870f2d3bd777/artifacts
+end_time: 1732380092532
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e4e300f42d1242f7b029870f2d3bd777
+run_name: awesome-kite-844
+run_uuid: e4e300f42d1242f7b029870f2d3bd777
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380084903
+status: 4
+tags: []
+user_id: paragchaudhari

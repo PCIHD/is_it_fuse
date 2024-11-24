@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/675cef35a359400b80bdf83df83d9427/artifacts
+end_time: 1732447879026
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 675cef35a359400b80bdf83df83d9427
+run_name: aged-boar-177
+run_uuid: 675cef35a359400b80bdf83df83d9427
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732447809940
+status: 3
+tags: []
+user_id: paragchaudhari

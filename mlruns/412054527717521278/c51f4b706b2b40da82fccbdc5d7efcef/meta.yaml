@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/c51f4b706b2b40da82fccbdc5d7efcef/artifacts
+end_time: 1732377952247
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: c51f4b706b2b40da82fccbdc5d7efcef
+run_name: useful-toad-854
+run_uuid: c51f4b706b2b40da82fccbdc5d7efcef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732377906959
+status: 4
+tags: []
+user_id: paragchaudhari

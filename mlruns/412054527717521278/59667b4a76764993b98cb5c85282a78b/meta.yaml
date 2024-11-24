@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/59667b4a76764993b98cb5c85282a78b/artifacts
+end_time: 1732444615422
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 59667b4a76764993b98cb5c85282a78b
+run_name: gentle-loon-110
+run_uuid: 59667b4a76764993b98cb5c85282a78b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732444549399
+status: 3
+tags: []
+user_id: paragchaudhari

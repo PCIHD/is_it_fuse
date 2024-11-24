@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/b17db5a3f38e47b49fe5682eb7deb667/artifacts
+end_time: 1732465603765
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: b17db5a3f38e47b49fe5682eb7deb667
+run_name: agreeable-squid-949
+run_uuid: b17db5a3f38e47b49fe5682eb7deb667
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732465584905
+status: 4
+tags: []
+user_id: paragchaudhari

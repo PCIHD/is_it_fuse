@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/7f0158e04bf544fc8693bd15d6401618/artifacts
+end_time: 1732386724430
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 7f0158e04bf544fc8693bd15d6401618
+run_name: chill-ram-196
+run_uuid: 7f0158e04bf544fc8693bd15d6401618
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732386616420
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a245bd67081a4de9ba88de374e566376/artifacts
+end_time: 1732452325514
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a245bd67081a4de9ba88de374e566376
+run_name: bemused-carp-778
+run_uuid: a245bd67081a4de9ba88de374e566376
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732452319131
+status: 4
+tags: []
+user_id: paragchaudhari

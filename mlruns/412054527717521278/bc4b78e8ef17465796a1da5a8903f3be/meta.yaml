@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/bc4b78e8ef17465796a1da5a8903f3be/artifacts
+end_time: 1732431146957
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: bc4b78e8ef17465796a1da5a8903f3be
+run_name: smiling-ram-184
+run_uuid: bc4b78e8ef17465796a1da5a8903f3be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732431127995
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3a6bb9f35f494f799333bef970bf9176/artifacts
+end_time: 1732462436794
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3a6bb9f35f494f799333bef970bf9176
+run_name: rare-dolphin-557
+run_uuid: 3a6bb9f35f494f799333bef970bf9176
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732462311144
+status: 4
+tags: []
+user_id: paragchaudhari

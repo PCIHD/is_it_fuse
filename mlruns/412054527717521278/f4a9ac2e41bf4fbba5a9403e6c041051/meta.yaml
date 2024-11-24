@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f4a9ac2e41bf4fbba5a9403e6c041051/artifacts
+end_time: 1732448005510
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f4a9ac2e41bf4fbba5a9403e6c041051
+run_name: secretive-deer-471
+run_uuid: f4a9ac2e41bf4fbba5a9403e6c041051
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732447984501
+status: 4
+tags: []
+user_id: paragchaudhari

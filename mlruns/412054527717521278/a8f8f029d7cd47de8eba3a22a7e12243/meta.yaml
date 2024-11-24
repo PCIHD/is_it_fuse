@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a8f8f029d7cd47de8eba3a22a7e12243/artifacts
+end_time: 1732377659567
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a8f8f029d7cd47de8eba3a22a7e12243
+run_name: upbeat-hawk-737
+run_uuid: a8f8f029d7cd47de8eba3a22a7e12243
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732377653942
+status: 4
+tags: []
+user_id: paragchaudhari

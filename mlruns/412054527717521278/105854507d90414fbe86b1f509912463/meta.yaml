@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/105854507d90414fbe86b1f509912463/artifacts
+end_time: 1732452993107
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 105854507d90414fbe86b1f509912463
+run_name: bedecked-crane-271
+run_uuid: 105854507d90414fbe86b1f509912463
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732452987316
+status: 4
+tags: []
+user_id: paragchaudhari

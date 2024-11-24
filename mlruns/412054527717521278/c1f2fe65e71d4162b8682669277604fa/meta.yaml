@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/c1f2fe65e71d4162b8682669277604fa/artifacts
+end_time: 1732468803399
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: c1f2fe65e71d4162b8682669277604fa
+run_name: delightful-stork-373
+run_uuid: c1f2fe65e71d4162b8682669277604fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732468772523
+status: 3
+tags: []
+user_id: paragchaudhari

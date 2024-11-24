@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3bbb1a0820764a1b9b512ad49ff54eb0/artifacts
+end_time: 1732469932333
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3bbb1a0820764a1b9b512ad49ff54eb0
+run_name: delicate-seal-612
+run_uuid: 3bbb1a0820764a1b9b512ad49ff54eb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732469363664
+status: 3
+tags: []
+user_id: paragchaudhari

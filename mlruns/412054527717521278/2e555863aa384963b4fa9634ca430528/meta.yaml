@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/2e555863aa384963b4fa9634ca430528/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 2e555863aa384963b4fa9634ca430528
+run_name: suave-wasp-371
+run_uuid: 2e555863aa384963b4fa9634ca430528
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732433378659
+status: 1
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/2130898bb6324b468473895f60ca428d/artifacts
+end_time: 1732467362139
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 2130898bb6324b468473895f60ca428d
+run_name: sneaky-elk-206
+run_uuid: 2130898bb6324b468473895f60ca428d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732467331091
+status: 3
+tags: []
+user_id: paragchaudhari

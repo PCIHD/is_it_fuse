@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/cf36de3678ab4666b4366e813403edfe/artifacts
+end_time: 1732448496987
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: cf36de3678ab4666b4366e813403edfe
+run_name: valuable-seal-321
+run_uuid: cf36de3678ab4666b4366e813403edfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732448462640
+status: 4
+tags: []
+user_id: paragchaudhari

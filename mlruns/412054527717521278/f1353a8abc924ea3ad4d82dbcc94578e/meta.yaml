@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f1353a8abc924ea3ad4d82dbcc94578e/artifacts
+end_time: 1732381147814
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f1353a8abc924ea3ad4d82dbcc94578e
+run_name: nebulous-smelt-24
+run_uuid: f1353a8abc924ea3ad4d82dbcc94578e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380939171
+status: 4
+tags: []
+user_id: paragchaudhari

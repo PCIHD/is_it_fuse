@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/46461a3afdc94c289d42685000e614ab/artifacts
+end_time: 1732375572293
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 46461a3afdc94c289d42685000e614ab
+run_name: redolent-hen-438
+run_uuid: 46461a3afdc94c289d42685000e614ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732375572109
+status: 4
+tags: []
+user_id: paragchaudhari

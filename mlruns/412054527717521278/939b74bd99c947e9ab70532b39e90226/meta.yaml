@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/939b74bd99c947e9ab70532b39e90226/artifacts
+end_time: 1732383590941
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 939b74bd99c947e9ab70532b39e90226
+run_name: masked-swan-957
+run_uuid: 939b74bd99c947e9ab70532b39e90226
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732383577622
+status: 4
+tags: []
+user_id: paragchaudhari

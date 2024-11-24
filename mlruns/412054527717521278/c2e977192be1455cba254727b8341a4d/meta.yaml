@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/c2e977192be1455cba254727b8341a4d/artifacts
+end_time: 1732381449498
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: c2e977192be1455cba254727b8341a4d
+run_name: resilient-fish-112
+run_uuid: c2e977192be1455cba254727b8341a4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732381441914
+status: 4
+tags: []
+user_id: paragchaudhari

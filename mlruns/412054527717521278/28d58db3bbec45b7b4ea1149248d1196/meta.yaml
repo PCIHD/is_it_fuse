@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/28d58db3bbec45b7b4ea1149248d1196/artifacts
+end_time: 1732469359955
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 28d58db3bbec45b7b4ea1149248d1196
+run_name: exultant-trout-510
+run_uuid: 28d58db3bbec45b7b4ea1149248d1196
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732469338337
+status: 4
+tags: []
+user_id: paragchaudhari

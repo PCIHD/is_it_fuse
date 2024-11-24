@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/18bea12c2a084c578429788c5147b504/artifacts
+end_time: 1732449727777
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 18bea12c2a084c578429788c5147b504
+run_name: resilient-squid-561
+run_uuid: 18bea12c2a084c578429788c5147b504
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732449714497
+status: 4
+tags: []
+user_id: paragchaudhari

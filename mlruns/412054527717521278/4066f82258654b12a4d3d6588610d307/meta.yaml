@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/4066f82258654b12a4d3d6588610d307/artifacts
+end_time: 1732440564991
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 4066f82258654b12a4d3d6588610d307
+run_name: stylish-cod-637
+run_uuid: 4066f82258654b12a4d3d6588610d307
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732440397982
+status: 4
+tags: []
+user_id: paragchaudhari

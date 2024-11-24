@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/1e2cf1376016499897939a2403b68abd/artifacts
+end_time: 1732435652219
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 1e2cf1376016499897939a2403b68abd
+run_name: serious-hog-403
+run_uuid: 1e2cf1376016499897939a2403b68abd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732435645618
+status: 4
+tags: []
+user_id: paragchaudhari

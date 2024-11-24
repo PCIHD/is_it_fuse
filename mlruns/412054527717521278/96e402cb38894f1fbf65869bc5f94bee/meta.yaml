@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/96e402cb38894f1fbf65869bc5f94bee/artifacts
+end_time: 1732452567959
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 96e402cb38894f1fbf65869bc5f94bee
+run_name: gaudy-hound-823
+run_uuid: 96e402cb38894f1fbf65869bc5f94bee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732452550027
+status: 4
+tags: []
+user_id: paragchaudhari

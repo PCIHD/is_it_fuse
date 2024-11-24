@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/190f21f6c2b741ebb6421991399ef57a/artifacts
+end_time: 1732452280919
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 190f21f6c2b741ebb6421991399ef57a
+run_name: rare-asp-761
+run_uuid: 190f21f6c2b741ebb6421991399ef57a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732452274605
+status: 4
+tags: []
+user_id: paragchaudhari

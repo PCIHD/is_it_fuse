@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/6a023eefd3d744e28f38b0247f79fc7b/artifacts
+end_time: 1732450856847
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 6a023eefd3d744e28f38b0247f79fc7b
+run_name: valuable-kite-935
+run_uuid: 6a023eefd3d744e28f38b0247f79fc7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732450763115
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/68018d8b6e4b455c895c753cbbd55a1c/artifacts
+end_time: 1732442585153
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 68018d8b6e4b455c895c753cbbd55a1c
+run_name: mercurial-worm-466
+run_uuid: 68018d8b6e4b455c895c753cbbd55a1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732442531568
+status: 4
+tags: []
+user_id: paragchaudhari

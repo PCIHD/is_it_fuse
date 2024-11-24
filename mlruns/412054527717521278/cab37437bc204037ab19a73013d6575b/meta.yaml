@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/cab37437bc204037ab19a73013d6575b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: cab37437bc204037ab19a73013d6575b
+run_name: chill-asp-398
+run_uuid: cab37437bc204037ab19a73013d6575b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732448370047
+status: 1
+tags: []
+user_id: paragchaudhari

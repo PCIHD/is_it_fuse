@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e0338425726f425eac40ff8624eb7ad4/artifacts
+end_time: 1732381597698
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e0338425726f425eac40ff8624eb7ad4
+run_name: mysterious-cow-61
+run_uuid: e0338425726f425eac40ff8624eb7ad4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732381552143
+status: 4
+tags: []
+user_id: paragchaudhari

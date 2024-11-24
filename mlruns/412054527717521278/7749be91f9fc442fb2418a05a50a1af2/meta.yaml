@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/7749be91f9fc442fb2418a05a50a1af2/artifacts
+end_time: 1732377374789
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 7749be91f9fc442fb2418a05a50a1af2
+run_name: adaptable-bass-198
+run_uuid: 7749be91f9fc442fb2418a05a50a1af2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732377359343
+status: 4
+tags: []
+user_id: paragchaudhari

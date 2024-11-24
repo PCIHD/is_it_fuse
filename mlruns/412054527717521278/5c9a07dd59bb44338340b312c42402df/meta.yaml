@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/5c9a07dd59bb44338340b312c42402df/artifacts
+end_time: 1732380601860
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 5c9a07dd59bb44338340b312c42402df
+run_name: honorable-dove-446
+run_uuid: 5c9a07dd59bb44338340b312c42402df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380593756
+status: 4
+tags: []
+user_id: paragchaudhari

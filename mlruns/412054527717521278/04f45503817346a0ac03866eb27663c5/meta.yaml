@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/04f45503817346a0ac03866eb27663c5/artifacts
+end_time: 1732432272675
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 04f45503817346a0ac03866eb27663c5
+run_name: suave-flea-842
+run_uuid: 04f45503817346a0ac03866eb27663c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732432266473
+status: 4
+tags: []
+user_id: paragchaudhari

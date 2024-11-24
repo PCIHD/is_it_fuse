@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/7b2dedc60ba4431aaaa5b99d54dbc40a/artifacts
+end_time: 1732441395181
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 7b2dedc60ba4431aaaa5b99d54dbc40a
+run_name: hilarious-kite-661
+run_uuid: 7b2dedc60ba4431aaaa5b99d54dbc40a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732441219053
+status: 4
+tags: []
+user_id: paragchaudhari

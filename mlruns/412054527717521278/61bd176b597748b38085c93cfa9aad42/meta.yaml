@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/61bd176b597748b38085c93cfa9aad42/artifacts
+end_time: 1732465423844
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 61bd176b597748b38085c93cfa9aad42
+run_name: rogue-crab-560
+run_uuid: 61bd176b597748b38085c93cfa9aad42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732465323641
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a8ad832613b547f1bbc1f3160e612534/artifacts
+end_time: 1732453014534
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a8ad832613b547f1bbc1f3160e612534
+run_name: intrigued-colt-447
+run_uuid: a8ad832613b547f1bbc1f3160e612534
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732453008632
+status: 4
+tags: []
+user_id: paragchaudhari

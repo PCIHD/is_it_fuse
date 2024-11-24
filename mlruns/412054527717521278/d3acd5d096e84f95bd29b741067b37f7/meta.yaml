@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/d3acd5d096e84f95bd29b741067b37f7/artifacts
+end_time: 1732380463343
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: d3acd5d096e84f95bd29b741067b37f7
+run_name: bald-crane-32
+run_uuid: d3acd5d096e84f95bd29b741067b37f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380455435
+status: 4
+tags: []
+user_id: paragchaudhari

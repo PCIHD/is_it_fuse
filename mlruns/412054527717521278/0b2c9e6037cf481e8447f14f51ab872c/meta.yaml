@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/0b2c9e6037cf481e8447f14f51ab872c/artifacts
+end_time: 1732462674228
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 0b2c9e6037cf481e8447f14f51ab872c
+run_name: languid-bear-390
+run_uuid: 0b2c9e6037cf481e8447f14f51ab872c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732462668422
+status: 4
+tags: []
+user_id: paragchaudhari

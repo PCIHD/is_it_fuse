@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/d5a9addab2c442d2a8fe025b29b72b08/artifacts
+end_time: 1732439826416
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: d5a9addab2c442d2a8fe025b29b72b08
+run_name: bald-fly-340
+run_uuid: d5a9addab2c442d2a8fe025b29b72b08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732439739578
+status: 4
+tags: []
+user_id: paragchaudhari

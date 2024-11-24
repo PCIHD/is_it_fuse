@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e123c98e1a0c431ea46337809ea70948/artifacts
+end_time: 1732433687423
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e123c98e1a0c431ea46337809ea70948
+run_name: rebellious-skink-994
+run_uuid: e123c98e1a0c431ea46337809ea70948
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732433417026
+status: 4
+tags: []
+user_id: paragchaudhari

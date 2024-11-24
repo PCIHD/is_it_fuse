@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/6481f801172044bf8e165849b0d72f47/artifacts
+end_time: 1732463193874
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 6481f801172044bf8e165849b0d72f47
+run_name: skittish-hawk-609
+run_uuid: 6481f801172044bf8e165849b0d72f47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732463103696
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/76d054e329b446bf9b6fa2a13c1d0e32/artifacts
+end_time: 1732450475995
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 76d054e329b446bf9b6fa2a13c1d0e32
+run_name: burly-pig-18
+run_uuid: 76d054e329b446bf9b6fa2a13c1d0e32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732450473558
+status: 4
+tags: []
+user_id: paragchaudhari

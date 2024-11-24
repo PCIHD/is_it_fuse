@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f2cf434863ef44268e298af35f030801/artifacts
+end_time: 1732380155809
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f2cf434863ef44268e298af35f030801
+run_name: mercurial-eel-542
+run_uuid: f2cf434863ef44268e298af35f030801
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380146829
+status: 4
+tags: []
+user_id: paragchaudhari

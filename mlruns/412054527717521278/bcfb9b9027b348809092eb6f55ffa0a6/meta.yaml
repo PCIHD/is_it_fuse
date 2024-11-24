@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/bcfb9b9027b348809092eb6f55ffa0a6/artifacts
+end_time: 1732452439472
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: bcfb9b9027b348809092eb6f55ffa0a6
+run_name: peaceful-gnu-340
+run_uuid: bcfb9b9027b348809092eb6f55ffa0a6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732452433034
+status: 4
+tags: []
+user_id: paragchaudhari

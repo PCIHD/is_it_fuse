@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/882036226521038044/5acf945f065d4f1dae769ac58adbf6c2/artifacts
+end_time: 1732366664726
+entry_point_name: ''
+experiment_id: '882036226521038044'
+lifecycle_stage: active
+run_id: 5acf945f065d4f1dae769ac58adbf6c2
+run_name: placid-dog-24
+run_uuid: 5acf945f065d4f1dae769ac58adbf6c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732366664718
+status: 4
+tags: []
+user_id: paragchaudhari

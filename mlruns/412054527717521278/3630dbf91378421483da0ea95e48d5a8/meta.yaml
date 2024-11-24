@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3630dbf91378421483da0ea95e48d5a8/artifacts
+end_time: 1732432603163
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3630dbf91378421483da0ea95e48d5a8
+run_name: abrasive-fly-93
+run_uuid: 3630dbf91378421483da0ea95e48d5a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732432597009
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/363639e9f6a64e959a5d8569b4d3165b/artifacts
+end_time: 1732381683953
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 363639e9f6a64e959a5d8569b4d3165b
+run_name: classy-whale-319
+run_uuid: 363639e9f6a64e959a5d8569b4d3165b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732381676294
+status: 4
+tags: []
+user_id: paragchaudhari

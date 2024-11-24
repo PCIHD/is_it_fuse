@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/96c7f180833e4808b803d613c380383f/artifacts
+end_time: 1732382834420
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 96c7f180833e4808b803d613c380383f
+run_name: defiant-panda-95
+run_uuid: 96c7f180833e4808b803d613c380383f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732382816845
+status: 4
+tags: []
+user_id: paragchaudhari

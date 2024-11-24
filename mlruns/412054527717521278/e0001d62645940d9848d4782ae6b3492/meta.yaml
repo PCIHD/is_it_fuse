@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e0001d62645940d9848d4782ae6b3492/artifacts
+end_time: 1732380536558
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e0001d62645940d9848d4782ae6b3492
+run_name: auspicious-fawn-512
+run_uuid: e0001d62645940d9848d4782ae6b3492
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380528521
+status: 4
+tags: []
+user_id: paragchaudhari

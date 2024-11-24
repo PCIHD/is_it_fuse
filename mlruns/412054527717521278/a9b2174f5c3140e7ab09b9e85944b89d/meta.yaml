@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a9b2174f5c3140e7ab09b9e85944b89d/artifacts
+end_time: 1732377328528
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a9b2174f5c3140e7ab09b9e85944b89d
+run_name: incongruous-wolf-431
+run_uuid: a9b2174f5c3140e7ab09b9e85944b89d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732377320117
+status: 4
+tags: []
+user_id: paragchaudhari

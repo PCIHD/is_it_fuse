@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/882036226521038044/2561c9e1077c4d63bee1d7c4c8ac2b1c/artifacts
+end_time: 1732366555870
+entry_point_name: ''
+experiment_id: '882036226521038044'
+lifecycle_stage: active
+run_id: 2561c9e1077c4d63bee1d7c4c8ac2b1c
+run_name: monumental-pug-869
+run_uuid: 2561c9e1077c4d63bee1d7c4c8ac2b1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732366555864
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a45abd16cf074eb1b3fc52acdd950034/artifacts
+end_time: 1732433362805
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a45abd16cf074eb1b3fc52acdd950034
+run_name: kindly-ram-568
+run_uuid: a45abd16cf074eb1b3fc52acdd950034
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732433191569
+status: 4
+tags: []
+user_id: paragchaudhari

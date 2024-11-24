@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/fb8ff9fd11db482492b8361f1bd6e37a/artifacts
+end_time: 1732381609205
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: fb8ff9fd11db482492b8361f1bd6e37a
+run_name: defiant-dolphin-744
+run_uuid: fb8ff9fd11db482492b8361f1bd6e37a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732381601093
+status: 4
+tags: []
+user_id: paragchaudhari

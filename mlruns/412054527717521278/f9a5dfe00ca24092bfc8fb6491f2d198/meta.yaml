@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f9a5dfe00ca24092bfc8fb6491f2d198/artifacts
+end_time: 1732432704957
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f9a5dfe00ca24092bfc8fb6491f2d198
+run_name: upset-shrike-803
+run_uuid: f9a5dfe00ca24092bfc8fb6491f2d198
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732432698411
+status: 4
+tags: []
+user_id: paragchaudhari

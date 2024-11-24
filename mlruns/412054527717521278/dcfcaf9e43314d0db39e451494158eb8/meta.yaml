@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/dcfcaf9e43314d0db39e451494158eb8/artifacts
+end_time: 1732443346069
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: dcfcaf9e43314d0db39e451494158eb8
+run_name: masked-cow-722
+run_uuid: dcfcaf9e43314d0db39e451494158eb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732443336524
+status: 4
+tags: []
+user_id: paragchaudhari

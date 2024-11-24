@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/ea7a96174f4c4d989f781b95a2e5f828/artifacts
+end_time: 1732383327792
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: ea7a96174f4c4d989f781b95a2e5f828
+run_name: marvelous-bass-680
+run_uuid: ea7a96174f4c4d989f781b95a2e5f828
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732383310356
+status: 4
+tags: []
+user_id: paragchaudhari

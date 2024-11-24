@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/5c9f50e99147400fa7c8c4b1ece61a40/artifacts
+end_time: 1732377397474
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 5c9f50e99147400fa7c8c4b1ece61a40
+run_name: treasured-cat-837
+run_uuid: 5c9f50e99147400fa7c8c4b1ece61a40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732377378057
+status: 4
+tags: []
+user_id: paragchaudhari

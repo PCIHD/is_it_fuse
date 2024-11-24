@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/ae6f2705f14f4bd9b4f24ee3fcbb9cc9/artifacts
+end_time: 1732434338751
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: ae6f2705f14f4bd9b4f24ee3fcbb9cc9
+run_name: glamorous-loon-55
+run_uuid: ae6f2705f14f4bd9b4f24ee3fcbb9cc9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732433981380
+status: 4
+tags: []
+user_id: paragchaudhari

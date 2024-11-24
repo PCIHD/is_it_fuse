@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/ba99adaf2ad246629192aee25780eb24/artifacts
+end_time: 1732463831223
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: ba99adaf2ad246629192aee25780eb24
+run_name: flawless-rook-701
+run_uuid: ba99adaf2ad246629192aee25780eb24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732463205725
+status: 3
+tags: []
+user_id: paragchaudhari

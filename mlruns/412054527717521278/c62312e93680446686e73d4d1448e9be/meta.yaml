@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/c62312e93680446686e73d4d1448e9be/artifacts
+end_time: 1732462906007
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: c62312e93680446686e73d4d1448e9be
+run_name: legendary-mink-702
+run_uuid: c62312e93680446686e73d4d1448e9be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732462861200
+status: 3
+tags: []
+user_id: paragchaudhari

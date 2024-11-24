@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/05c1671cd1b04679a2a886e58035df0c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 05c1671cd1b04679a2a886e58035df0c
+run_name: whimsical-sloth-180
+run_uuid: 05c1671cd1b04679a2a886e58035df0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732385942079
+status: 1
+tags: []
+user_id: paragchaudhari

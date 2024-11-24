@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/645b04989cab49c7a1cd7fea0acd2251/artifacts
+end_time: 1732462067920
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 645b04989cab49c7a1cd7fea0acd2251
+run_name: omniscient-flea-396
+run_uuid: 645b04989cab49c7a1cd7fea0acd2251
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732461981661
+status: 4
+tags: []
+user_id: paragchaudhari

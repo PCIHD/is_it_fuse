@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/60a151d16e0d4444ab563c665776b20e/artifacts
+end_time: 1732448449343
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 60a151d16e0d4444ab563c665776b20e
+run_name: loud-crane-262
+run_uuid: 60a151d16e0d4444ab563c665776b20e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732448439828
+status: 4
+tags: []
+user_id: paragchaudhari
