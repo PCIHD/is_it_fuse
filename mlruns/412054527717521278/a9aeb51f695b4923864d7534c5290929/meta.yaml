@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a9aeb51f695b4923864d7534c5290929/artifacts
+end_time: 1732440611953
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a9aeb51f695b4923864d7534c5290929
+run_name: tasteful-wolf-663
+run_uuid: a9aeb51f695b4923864d7534c5290929
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732440574129
+status: 4
+tags: []
+user_id: paragchaudhari

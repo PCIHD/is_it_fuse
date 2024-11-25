@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/938a60997a10479288abab7f94b51ad5/artifacts
+end_time: 1732430903189
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 938a60997a10479288abab7f94b51ad5
+run_name: exultant-gnat-811
+run_uuid: 938a60997a10479288abab7f94b51ad5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732430883558
+status: 4
+tags: []
+user_id: paragchaudhari

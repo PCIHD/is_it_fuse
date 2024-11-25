@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/0f9d92c6899946fe927375e6d125f163/artifacts
+end_time: 1732386994843
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 0f9d92c6899946fe927375e6d125f163
+run_name: intelligent-dog-353
+run_uuid: 0f9d92c6899946fe927375e6d125f163
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732386770500
+status: 4
+tags: []
+user_id: paragchaudhari

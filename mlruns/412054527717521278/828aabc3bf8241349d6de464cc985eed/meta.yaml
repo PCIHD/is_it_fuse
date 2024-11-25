@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/828aabc3bf8241349d6de464cc985eed/artifacts
+end_time: 1732462088981
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 828aabc3bf8241349d6de464cc985eed
+run_name: clean-seal-80
+run_uuid: 828aabc3bf8241349d6de464cc985eed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732462077011
+status: 4
+tags: []
+user_id: paragchaudhari

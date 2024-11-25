@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/6d4d59d5e70c429e8970b2acf7b3e8d0/artifacts
+end_time: 1732379158984
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 6d4d59d5e70c429e8970b2acf7b3e8d0
+run_name: sneaky-foal-912
+run_uuid: 6d4d59d5e70c429e8970b2acf7b3e8d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732379151299
+status: 4
+tags: []
+user_id: paragchaudhari

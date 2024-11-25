@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/75042451e64941e782489dad80766551/artifacts
+end_time: 1732383229886
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 75042451e64941e782489dad80766551
+run_name: bedecked-slug-69
+run_uuid: 75042451e64941e782489dad80766551
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732382896801
+status: 4
+tags: []
+user_id: paragchaudhari

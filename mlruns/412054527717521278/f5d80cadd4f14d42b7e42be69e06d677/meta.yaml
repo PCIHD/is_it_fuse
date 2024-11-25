@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f5d80cadd4f14d42b7e42be69e06d677/artifacts
+end_time: 1732384669523
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f5d80cadd4f14d42b7e42be69e06d677
+run_name: beautiful-fish-578
+run_uuid: f5d80cadd4f14d42b7e42be69e06d677
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732384647803
+status: 4
+tags: []
+user_id: paragchaudhari

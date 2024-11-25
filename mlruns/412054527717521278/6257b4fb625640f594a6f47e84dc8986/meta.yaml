@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/6257b4fb625640f594a6f47e84dc8986/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 6257b4fb625640f594a6f47e84dc8986
+run_name: bustling-sloth-851
+run_uuid: 6257b4fb625640f594a6f47e84dc8986
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732432754087
+status: 1
+tags: []
+user_id: paragchaudhari

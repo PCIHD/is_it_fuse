@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/eadb5546eb7c4decb31612289eac14da/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: eadb5546eb7c4decb31612289eac14da
+run_name: glamorous-fly-833
+run_uuid: eadb5546eb7c4decb31612289eac14da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732443224240
+status: 1
+tags: []
+user_id: paragchaudhari

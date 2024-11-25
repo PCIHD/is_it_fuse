@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e29837fc0a394452a2bd3d46c8341eba/artifacts
+end_time: 1732383913258
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e29837fc0a394452a2bd3d46c8341eba
+run_name: overjoyed-donkey-456
+run_uuid: e29837fc0a394452a2bd3d46c8341eba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732383901862
+status: 4
+tags: []
+user_id: paragchaudhari

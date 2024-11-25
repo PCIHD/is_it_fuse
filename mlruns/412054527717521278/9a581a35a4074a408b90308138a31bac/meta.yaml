@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/9a581a35a4074a408b90308138a31bac/artifacts
+end_time: 1732443364107
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 9a581a35a4074a408b90308138a31bac
+run_name: dashing-fawn-7
+run_uuid: 9a581a35a4074a408b90308138a31bac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732443362624
+status: 4
+tags: []
+user_id: paragchaudhari

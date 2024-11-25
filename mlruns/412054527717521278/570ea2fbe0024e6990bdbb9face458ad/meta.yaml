@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/570ea2fbe0024e6990bdbb9face458ad/artifacts
+end_time: 1732378522171
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 570ea2fbe0024e6990bdbb9face458ad
+run_name: amazing-rook-671
+run_uuid: 570ea2fbe0024e6990bdbb9face458ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732378516493
+status: 4
+tags: []
+user_id: paragchaudhari

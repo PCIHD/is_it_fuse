@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/8084413daa864487bd0dae17be523adf/artifacts
+end_time: 1732384024181
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 8084413daa864487bd0dae17be523adf
+run_name: kindly-finch-73
+run_uuid: 8084413daa864487bd0dae17be523adf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732384014675
+status: 4
+tags: []
+user_id: paragchaudhari

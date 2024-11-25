@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/7f50efc369ac466d8cf59394f9a40089/artifacts
+end_time: 1732384297786
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 7f50efc369ac466d8cf59394f9a40089
+run_name: thundering-sheep-191
+run_uuid: 7f50efc369ac466d8cf59394f9a40089
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732384288403
+status: 4
+tags: []
+user_id: paragchaudhari

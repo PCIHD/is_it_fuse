@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/4cfd583702c24be3937299087fc8acb4/artifacts
+end_time: 1732451837580
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 4cfd583702c24be3937299087fc8acb4
+run_name: puzzled-rat-811
+run_uuid: 4cfd583702c24be3937299087fc8acb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732451831489
+status: 4
+tags: []
+user_id: paragchaudhari

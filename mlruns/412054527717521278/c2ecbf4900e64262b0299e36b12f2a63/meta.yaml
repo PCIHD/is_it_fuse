@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/c2ecbf4900e64262b0299e36b12f2a63/artifacts
+end_time: 1732451936767
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: c2ecbf4900e64262b0299e36b12f2a63
+run_name: bright-hare-951
+run_uuid: c2ecbf4900e64262b0299e36b12f2a63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732451930673
+status: 4
+tags: []
+user_id: paragchaudhari

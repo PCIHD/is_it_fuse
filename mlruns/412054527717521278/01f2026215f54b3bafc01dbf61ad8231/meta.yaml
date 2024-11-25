@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/01f2026215f54b3bafc01dbf61ad8231/artifacts
+end_time: 1732380213778
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 01f2026215f54b3bafc01dbf61ad8231
+run_name: wise-crow-839
+run_uuid: 01f2026215f54b3bafc01dbf61ad8231
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380206407
+status: 4
+tags: []
+user_id: paragchaudhari

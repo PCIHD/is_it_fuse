@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/84dc8058815642788547f19632d8f989/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 84dc8058815642788547f19632d8f989
+run_name: intrigued-stag-489
+run_uuid: 84dc8058815642788547f19632d8f989
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732386333405
+status: 1
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/23bfb565fd8947a4b044574e3b98af53/artifacts
+end_time: 1732375235585
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 23bfb565fd8947a4b044574e3b98af53
+run_name: invincible-roo-140
+run_uuid: 23bfb565fd8947a4b044574e3b98af53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732375172116
+status: 4
+tags: []
+user_id: paragchaudhari

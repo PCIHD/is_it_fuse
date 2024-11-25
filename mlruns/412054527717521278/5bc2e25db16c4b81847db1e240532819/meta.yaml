@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/5bc2e25db16c4b81847db1e240532819/artifacts
+end_time: 1732378608850
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 5bc2e25db16c4b81847db1e240532819
+run_name: resilient-grouse-71
+run_uuid: 5bc2e25db16c4b81847db1e240532819
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732378601030
+status: 4
+tags: []
+user_id: paragchaudhari

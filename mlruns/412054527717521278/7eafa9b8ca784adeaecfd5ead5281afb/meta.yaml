@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/7eafa9b8ca784adeaecfd5ead5281afb/artifacts
+end_time: 1732435050283
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 7eafa9b8ca784adeaecfd5ead5281afb
+run_name: nosy-mule-53
+run_uuid: 7eafa9b8ca784adeaecfd5ead5281afb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732434419801
+status: 4
+tags: []
+user_id: paragchaudhari

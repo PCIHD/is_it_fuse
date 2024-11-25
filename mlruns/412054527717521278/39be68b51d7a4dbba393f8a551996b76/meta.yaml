@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/39be68b51d7a4dbba393f8a551996b76/artifacts
+end_time: 1732467841202
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 39be68b51d7a4dbba393f8a551996b76
+run_name: luxuriant-shad-989
+run_uuid: 39be68b51d7a4dbba393f8a551996b76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732467810243
+status: 3
+tags: []
+user_id: paragchaudhari

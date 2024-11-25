@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/99393f2a6be147c4a91a25a363d3c17c/artifacts
+end_time: 1732382774030
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 99393f2a6be147c4a91a25a363d3c17c
+run_name: glamorous-cat-259
+run_uuid: 99393f2a6be147c4a91a25a363d3c17c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732382755740
+status: 4
+tags: []
+user_id: paragchaudhari

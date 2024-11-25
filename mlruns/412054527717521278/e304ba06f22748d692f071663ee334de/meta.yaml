@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e304ba06f22748d692f071663ee334de/artifacts
+end_time: 1732462665405
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e304ba06f22748d692f071663ee334de
+run_name: selective-conch-880
+run_uuid: e304ba06f22748d692f071663ee334de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732462479673
+status: 4
+tags: []
+user_id: paragchaudhari

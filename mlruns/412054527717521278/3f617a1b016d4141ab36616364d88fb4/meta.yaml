@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3f617a1b016d4141ab36616364d88fb4/artifacts
+end_time: 1732452908476
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3f617a1b016d4141ab36616364d88fb4
+run_name: carefree-crane-626
+run_uuid: 3f617a1b016d4141ab36616364d88fb4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732452902432
+status: 4
+tags: []
+user_id: paragchaudhari

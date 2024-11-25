@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f3062c5a00724cb18c34a0debd203dd5/artifacts
+end_time: 1732441419835
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f3062c5a00724cb18c34a0debd203dd5
+run_name: wistful-bass-794
+run_uuid: f3062c5a00724cb18c34a0debd203dd5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732441399106
+status: 4
+tags: []
+user_id: paragchaudhari

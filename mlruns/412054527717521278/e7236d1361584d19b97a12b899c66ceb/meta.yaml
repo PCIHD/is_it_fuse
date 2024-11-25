@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e7236d1361584d19b97a12b899c66ceb/artifacts
+end_time: 1732462279398
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e7236d1361584d19b97a12b899c66ceb
+run_name: wistful-yak-180
+run_uuid: e7236d1361584d19b97a12b899c66ceb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732462273683
+status: 4
+tags: []
+user_id: paragchaudhari

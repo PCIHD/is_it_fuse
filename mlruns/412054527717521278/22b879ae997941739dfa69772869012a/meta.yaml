@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/22b879ae997941739dfa69772869012a/artifacts
+end_time: 1732380863225
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 22b879ae997941739dfa69772869012a
+run_name: thundering-lark-828
+run_uuid: 22b879ae997941739dfa69772869012a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380855090
+status: 4
+tags: []
+user_id: paragchaudhari

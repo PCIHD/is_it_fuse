@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3ad3432fa40846a9b687320f1a452737/artifacts
+end_time: 1732382129597
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3ad3432fa40846a9b687320f1a452737
+run_name: learned-vole-708
+run_uuid: 3ad3432fa40846a9b687320f1a452737
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732381841594
+status: 4
+tags: []
+user_id: paragchaudhari

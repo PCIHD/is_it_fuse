@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/b529bce793d94852899642fe372a2d6a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: b529bce793d94852899642fe372a2d6a
+run_name: unruly-colt-609
+run_uuid: b529bce793d94852899642fe372a2d6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732442062645
+status: 1
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e7ac4b8b0c6c4aa6a030b204da2e24f9/artifacts
+end_time: 1732449111679
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e7ac4b8b0c6c4aa6a030b204da2e24f9
+run_name: burly-loon-27
+run_uuid: e7ac4b8b0c6c4aa6a030b204da2e24f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732449063626
+status: 4
+tags: []
+user_id: paragchaudhari

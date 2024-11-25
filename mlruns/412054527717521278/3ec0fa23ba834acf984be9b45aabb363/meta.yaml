@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3ec0fa23ba834acf984be9b45aabb363/artifacts
+end_time: 1732442522248
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3ec0fa23ba834acf984be9b45aabb363
+run_name: brawny-fox-981
+run_uuid: 3ec0fa23ba834acf984be9b45aabb363
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732442522218
+status: 4
+tags: []
+user_id: paragchaudhari

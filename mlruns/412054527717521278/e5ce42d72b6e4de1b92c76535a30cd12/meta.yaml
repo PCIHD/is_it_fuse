@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e5ce42d72b6e4de1b92c76535a30cd12/artifacts
+end_time: 1732384186149
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e5ce42d72b6e4de1b92c76535a30cd12
+run_name: salty-moose-282
+run_uuid: e5ce42d72b6e4de1b92c76535a30cd12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732384176074
+status: 4
+tags: []
+user_id: paragchaudhari

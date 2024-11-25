@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/6110a292514b431abc094dac0203b8a4/artifacts
+end_time: 1732461879170
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 6110a292514b431abc094dac0203b8a4
+run_name: bouncy-bear-880
+run_uuid: 6110a292514b431abc094dac0203b8a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732461873438
+status: 4
+tags: []
+user_id: paragchaudhari

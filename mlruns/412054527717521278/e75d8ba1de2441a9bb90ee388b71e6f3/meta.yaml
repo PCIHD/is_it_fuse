@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e75d8ba1de2441a9bb90ee388b71e6f3/artifacts
+end_time: 1732380143835
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e75d8ba1de2441a9bb90ee388b71e6f3
+run_name: nebulous-mule-802
+run_uuid: e75d8ba1de2441a9bb90ee388b71e6f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380133341
+status: 4
+tags: []
+user_id: paragchaudhari

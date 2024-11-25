@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/7f7473027f0049c5b49d8f762f82b91b/artifacts
+end_time: 1732385308536
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 7f7473027f0049c5b49d8f762f82b91b
+run_name: omniscient-midge-871
+run_uuid: 7f7473027f0049c5b49d8f762f82b91b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732385294201
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/d4de9f28f7cf43eaa38e2da2d7e60ef1/artifacts
+end_time: 1732442470672
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: d4de9f28f7cf43eaa38e2da2d7e60ef1
+run_name: melodic-cat-997
+run_uuid: d4de9f28f7cf43eaa38e2da2d7e60ef1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732442397170
+status: 4
+tags: []
+user_id: paragchaudhari

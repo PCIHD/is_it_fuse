@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/12d968d0726c4088831b528ec1b1a59c/artifacts
+end_time: 1732440833569
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 12d968d0726c4088831b528ec1b1a59c
+run_name: valuable-crane-971
+run_uuid: 12d968d0726c4088831b528ec1b1a59c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732440621142
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/9f2232cc6b404614ad5b4a0c180d1e36/artifacts
+end_time: 1732384794049
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 9f2232cc6b404614ad5b4a0c180d1e36
+run_name: bemused-loon-703
+run_uuid: 9f2232cc6b404614ad5b4a0c180d1e36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732384779827
+status: 4
+tags: []
+user_id: paragchaudhari

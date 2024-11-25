@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/7a0425a5c3d14cc6aec130db7fa20567/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 7a0425a5c3d14cc6aec130db7fa20567
+run_name: bold-chimp-355
+run_uuid: 7a0425a5c3d14cc6aec130db7fa20567
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732440836867
+status: 1
+tags: []
+user_id: paragchaudhari

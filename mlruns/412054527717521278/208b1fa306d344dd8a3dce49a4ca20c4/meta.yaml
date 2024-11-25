@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/208b1fa306d344dd8a3dce49a4ca20c4/artifacts
+end_time: 1732382241980
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 208b1fa306d344dd8a3dce49a4ca20c4
+run_name: burly-fish-534
+run_uuid: 208b1fa306d344dd8a3dce49a4ca20c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732382224068
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/4ca47ba9b0264826aec1b05c9f41a1f8/artifacts
+end_time: 1732382185867
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 4ca47ba9b0264826aec1b05c9f41a1f8
+run_name: flawless-grouse-587
+run_uuid: 4ca47ba9b0264826aec1b05c9f41a1f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732382178020
+status: 4
+tags: []
+user_id: paragchaudhari

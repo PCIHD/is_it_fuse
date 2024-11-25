@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/c6da41d2548247d28b214019c7262ad2/artifacts
+end_time: 1732380851181
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: c6da41d2548247d28b214019c7262ad2
+run_name: painted-bear-361
+run_uuid: c6da41d2548247d28b214019c7262ad2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380754687
+status: 3
+tags: []
+user_id: paragchaudhari

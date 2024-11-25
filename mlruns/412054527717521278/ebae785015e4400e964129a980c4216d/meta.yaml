@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/ebae785015e4400e964129a980c4216d/artifacts
+end_time: 1732432918170
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: ebae785015e4400e964129a980c4216d
+run_name: mercurial-fawn-55
+run_uuid: ebae785015e4400e964129a980c4216d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732432875937
+status: 4
+tags: []
+user_id: paragchaudhari

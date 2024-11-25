@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/6b06bbb5c8294dca9b2a521ce2768a86/artifacts
+end_time: 1732380376590
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 6b06bbb5c8294dca9b2a521ce2768a86
+run_name: placid-crow-746
+run_uuid: 6b06bbb5c8294dca9b2a521ce2768a86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732380293281
+status: 4
+tags: []
+user_id: paragchaudhari

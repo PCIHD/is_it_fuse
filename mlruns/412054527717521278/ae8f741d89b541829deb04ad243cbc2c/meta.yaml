@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/ae8f741d89b541829deb04ad243cbc2c/artifacts
+end_time: 1732378005504
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: ae8f741d89b541829deb04ad243cbc2c
+run_name: valuable-wasp-22
+run_uuid: ae8f741d89b541829deb04ad243cbc2c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732377959541
+status: 4
+tags: []
+user_id: paragchaudhari

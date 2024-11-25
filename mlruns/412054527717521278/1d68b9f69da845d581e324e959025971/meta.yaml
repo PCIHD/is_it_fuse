@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/1d68b9f69da845d581e324e959025971/artifacts
+end_time: 1732430530159
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 1d68b9f69da845d581e324e959025971
+run_name: able-fawn-497
+run_uuid: 1d68b9f69da845d581e324e959025971
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732430524359
+status: 4
+tags: []
+user_id: paragchaudhari

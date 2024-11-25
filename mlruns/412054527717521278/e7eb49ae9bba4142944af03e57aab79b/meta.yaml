@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e7eb49ae9bba4142944af03e57aab79b/artifacts
+end_time: 1732444723240
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e7eb49ae9bba4142944af03e57aab79b
+run_name: adorable-colt-524
+run_uuid: e7eb49ae9bba4142944af03e57aab79b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732444658518
+status: 3
+tags: []
+user_id: paragchaudhari

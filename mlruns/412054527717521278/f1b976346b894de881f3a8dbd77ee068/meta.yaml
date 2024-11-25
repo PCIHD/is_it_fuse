@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f1b976346b894de881f3a8dbd77ee068/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f1b976346b894de881f3a8dbd77ee068
+run_name: bald-wren-787
+run_uuid: f1b976346b894de881f3a8dbd77ee068
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732439839716
+status: 1
+tags: []
+user_id: paragchaudhari

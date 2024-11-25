@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/327733f2f3d14678bec51b0d3a625fbd/artifacts
+end_time: 1732430820312
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 327733f2f3d14678bec51b0d3a625fbd
+run_name: grandiose-flea-631
+run_uuid: 327733f2f3d14678bec51b0d3a625fbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732430801552
+status: 4
+tags: []
+user_id: paragchaudhari

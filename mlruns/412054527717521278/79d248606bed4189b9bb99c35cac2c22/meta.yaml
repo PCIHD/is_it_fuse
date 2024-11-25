@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/79d248606bed4189b9bb99c35cac2c22/artifacts
+end_time: 1732431222477
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 79d248606bed4189b9bb99c35cac2c22
+run_name: mercurial-owl-844
+run_uuid: 79d248606bed4189b9bb99c35cac2c22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732431180702
+status: 4
+tags: []
+user_id: paragchaudhari

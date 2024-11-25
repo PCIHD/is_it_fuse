@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/c3c5eff1da494a3595c5bdbe31e4ee2f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: c3c5eff1da494a3595c5bdbe31e4ee2f
+run_name: bald-donkey-419
+run_uuid: c3c5eff1da494a3595c5bdbe31e4ee2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732442996006
+status: 1
+tags: []
+user_id: paragchaudhari

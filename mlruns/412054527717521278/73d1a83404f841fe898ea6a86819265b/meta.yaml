@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/73d1a83404f841fe898ea6a86819265b/artifacts
+end_time: 1732385856043
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 73d1a83404f841fe898ea6a86819265b
+run_name: selective-lynx-654
+run_uuid: 73d1a83404f841fe898ea6a86819265b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732385807864
+status: 4
+tags: []
+user_id: paragchaudhari

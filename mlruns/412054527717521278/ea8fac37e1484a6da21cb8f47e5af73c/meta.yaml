@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/ea8fac37e1484a6da21cb8f47e5af73c/artifacts
+end_time: 1732382173175
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: ea8fac37e1484a6da21cb8f47e5af73c
+run_name: loud-elk-286
+run_uuid: ea8fac37e1484a6da21cb8f47e5af73c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732382140634
+status: 4
+tags: []
+user_id: paragchaudhari

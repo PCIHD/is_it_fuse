@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a395cab219004ba9bb76c4c3352dd628/artifacts
+end_time: 1732375114223
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a395cab219004ba9bb76c4c3352dd628
+run_name: crawling-koi-51
+run_uuid: a395cab219004ba9bb76c4c3352dd628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732375114027
+status: 4
+tags: []
+user_id: paragchaudhari

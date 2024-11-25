@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/fde6e63c5be245b985fbba3724817789/artifacts
+end_time: 1732381834482
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: fde6e63c5be245b985fbba3724817789
+run_name: skittish-mouse-137
+run_uuid: fde6e63c5be245b985fbba3724817789
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732381736137
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/c3166abb0362408189e4622b9f14c8ac/artifacts
+end_time: 1732377010694
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: c3166abb0362408189e4622b9f14c8ac
+run_name: indecisive-colt-438
+run_uuid: c3166abb0362408189e4622b9f14c8ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732376861378
+status: 4
+tags: []
+user_id: paragchaudhari

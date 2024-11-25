@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f267d928270a4e46b71e421afffd5b16/artifacts
+end_time: 1732375605211
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f267d928270a4e46b71e421afffd5b16
+run_name: gregarious-pug-203
+run_uuid: f267d928270a4e46b71e421afffd5b16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732375570039
+status: 4
+tags: []
+user_id: paragchaudhari

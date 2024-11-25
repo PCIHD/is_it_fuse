@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3eb2e5460c4642448b9a2954ff10cb32/artifacts
+end_time: 1732383793235
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3eb2e5460c4642448b9a2954ff10cb32
+run_name: fortunate-lynx-330
+run_uuid: 3eb2e5460c4642448b9a2954ff10cb32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732383647025
+status: 4
+tags: []
+user_id: paragchaudhari

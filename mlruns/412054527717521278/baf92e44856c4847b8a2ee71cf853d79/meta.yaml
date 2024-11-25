@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/baf92e44856c4847b8a2ee71cf853d79/artifacts
+end_time: 1732441025280
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: baf92e44856c4847b8a2ee71cf853d79
+run_name: merciful-pig-792
+run_uuid: baf92e44856c4847b8a2ee71cf853d79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732441025247
+status: 4
+tags: []
+user_id: paragchaudhari

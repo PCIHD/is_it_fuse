@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/895ab1a8eabc4191a5fda5fb59a7283a/artifacts
+end_time: 1732452353889
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 895ab1a8eabc4191a5fda5fb59a7283a
+run_name: abundant-mink-156
+run_uuid: 895ab1a8eabc4191a5fda5fb59a7283a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732452347591
+status: 4
+tags: []
+user_id: paragchaudhari

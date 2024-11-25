@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a0473fe3097f4693b92d3655256657ae/artifacts
+end_time: 1732435124583
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a0473fe3097f4693b92d3655256657ae
+run_name: dapper-frog-555
+run_uuid: a0473fe3097f4693b92d3655256657ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732435116912
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/96f6c4e0487642549d0b476d2a75dbbd/artifacts
+end_time: 1732385003601
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 96f6c4e0487642549d0b476d2a75dbbd
+run_name: colorful-lamb-185
+run_uuid: 96f6c4e0487642549d0b476d2a75dbbd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732384996925
+status: 4
+tags: []
+user_id: paragchaudhari

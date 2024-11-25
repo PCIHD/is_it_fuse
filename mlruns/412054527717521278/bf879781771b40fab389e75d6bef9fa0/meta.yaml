@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/bf879781771b40fab389e75d6bef9fa0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: bf879781771b40fab389e75d6bef9fa0
+run_name: serious-fowl-523
+run_uuid: bf879781771b40fab389e75d6bef9fa0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732448643506
+status: 1
+tags: []
+user_id: paragchaudhari

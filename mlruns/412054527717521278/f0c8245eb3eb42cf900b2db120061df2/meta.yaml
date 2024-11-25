@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/f0c8245eb3eb42cf900b2db120061df2/artifacts
+end_time: 1732448770728
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: f0c8245eb3eb42cf900b2db120061df2
+run_name: gentle-cow-345
+run_uuid: f0c8245eb3eb42cf900b2db120061df2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732448733347
+status: 4
+tags: []
+user_id: paragchaudhari

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/19d2999257b44c718b5908a4891b8da9/artifacts
+end_time: 1732453092848
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 19d2999257b44c718b5908a4891b8da9
+run_name: rebellious-vole-283
+run_uuid: 19d2999257b44c718b5908a4891b8da9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732453086538
+status: 4
+tags: []
+user_id: paragchaudhari

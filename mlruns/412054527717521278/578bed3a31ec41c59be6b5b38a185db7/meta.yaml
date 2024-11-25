@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/578bed3a31ec41c59be6b5b38a185db7/artifacts
+end_time: 1732379036951
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 578bed3a31ec41c59be6b5b38a185db7
+run_name: inquisitive-mole-205
+run_uuid: 578bed3a31ec41c59be6b5b38a185db7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732379029748
+status: 4
+tags: []
+user_id: paragchaudhari

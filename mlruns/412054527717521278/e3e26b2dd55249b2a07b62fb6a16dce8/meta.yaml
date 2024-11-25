@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/e3e26b2dd55249b2a07b62fb6a16dce8/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: e3e26b2dd55249b2a07b62fb6a16dce8
+run_name: invincible-kit-717
+run_uuid: e3e26b2dd55249b2a07b62fb6a16dce8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732442588390
+status: 1
+tags: []
+user_id: paragchaudhari

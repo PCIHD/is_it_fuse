@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/3b7d35188ac843f4b576462014789071/artifacts
+end_time: 1732378544116
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 3b7d35188ac843f4b576462014789071
+run_name: awesome-midge-104
+run_uuid: 3b7d35188ac843f4b576462014789071
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732378538402
+status: 4
+tags: []
+user_id: paragchaudhari

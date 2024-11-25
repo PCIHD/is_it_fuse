@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/a947175ecf96484e8b83ff723b87eb87/artifacts
+end_time: 1732440150438
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: a947175ecf96484e8b83ff723b87eb87
+run_name: rumbling-hen-407
+run_uuid: a947175ecf96484e8b83ff723b87eb87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732440109474
+status: 4
+tags: []
+user_id: paragchaudhari

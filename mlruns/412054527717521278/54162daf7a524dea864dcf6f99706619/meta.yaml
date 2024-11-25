@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/412054527717521278/54162daf7a524dea864dcf6f99706619/artifacts
+end_time: 1732442260263
+entry_point_name: ''
+experiment_id: '412054527717521278'
+lifecycle_stage: active
+run_id: 54162daf7a524dea864dcf6f99706619
+run_name: legendary-fly-715
+run_uuid: 54162daf7a524dea864dcf6f99706619
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732442192037
+status: 4
+tags: []
+user_id: paragchaudhari
